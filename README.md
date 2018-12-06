@@ -1,6 +1,6 @@
 # Desafio de programação
 
-A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de programador, de vários níveis.
+A ideia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de programador, de vários níveis.
 
 Este desafio deve ser feito por você em sua casa. Gaste o tempo que você quiser, porém normalmente você não deve precisar de mais do que algumas horas.
 
@@ -18,19 +18,19 @@ Este desafio deve ser feito por você em sua casa. Gaste o tempo que você quise
 
 Considerando que você tem acesso a API de Filmes/Séries [TheMovieDatabase API](https://www.themoviedb.org/documentation/api), precisamos criar uma maneira de importar o [catálogo de novos filmes](https://developers.themoviedb.org/3/movies/get-upcoming) com [seus gêneros](https://developers.themoviedb.org/3/genres/get-movie-list) para um banco de dados, para "economizarmos" acesso a API do _TheMovieDatabase_. _(nota: sempre que possível, usar o parâmetro `language=pt-BR` para importar os dados em português)_
 
-Sua tarefa é criar uma interface web para listar os filmes que estão na base de dados e com possibilidade de filtrar os filmes por tipos de gênero.
+Com os filmes e gêneros importados, sua tarefa, agora, é criar uma interface web para listar os filmes que estão na base de dados e com a possibilidade de filtro por tipos de gênero.
 
 Sua aplicação DEVE:
 
 1. Listar todos os filmes, de forma páginada, permitindo aplicação de filtro por gênero(s);
-1. Importar os dados da API através de script _Rake_;
+1. Importar manualmento os dados da API através de script _Rake_;
 1. Ser escrita obrigatoriamente em Ruby 2.5+, usando o framework Rails 5.2+, banco de dados Postgres;
 1. Ser simples de configurar e rodar, funcionando em ambiente compatível com Unix (Linux ou Mac OS X). Ela deve utilizar apenas linguagens e bibliotecas livres e/ou gratuitas;
+1. Ter uma aparência bonita e responsiva;
 
-Sua aplicação web não precisa:
+Sua aplicação web NÃO precisa:
 
 1. Lidar com autenticação ou autorização (pontos extras se ela fizer, mais pontos extras ainda se a autenticação for feita via OAuth2);
-1. Ter uma aparência bonita e responsiva;
 1. Ter interface admin [activeadmin] (pontos extrar se fizer, mais pontos extra se tiver a opção para atualização do catalogo de filmes manualmente);
 
 ## Avaliação
