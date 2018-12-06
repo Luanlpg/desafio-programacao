@@ -18,7 +18,7 @@ Este desafio deve ser feito por você em sua casa. Gaste o tempo que você quise
 
 Considerando que você tem acesso a API de Filmes/Séries [TheMovieDatabase API](https://www.themoviedb.org/documentation/api), precisamos criar uma maneira de importar o [catálogo de novos filmes](https://developers.themoviedb.org/3/movies/get-upcoming) com [seus gêneros](https://developers.themoviedb.org/3/genres/get-movie-list) para um banco de dados, para "economizarmos" acesso a API do _TheMovieDatabase_. _(nota: sempre que possível, usar o parâmetro `language=pt-BR` para importar os dados em português)_
 
-Sua tareda é criar uma interface web para listar os filmes que estão na base de dados e com possibilidade de filtrar os filmes por tipos de gênero.
+Sua tarefa é criar uma interface web para listar os filmes que estão na base de dados e com possibilidade de filtrar os filmes por tipos de gênero.
 
 Sua aplicação DEVE:
 
@@ -37,13 +37,13 @@ Sua aplicação web não precisa:
 
 Seu projeto será avaliado de acordo com os seguintes critérios.
 
-1. Sua aplicação preenche os requerimentos básicos?
+1. Sua aplicação preenche os requerimentos?
 1. Você documentou a maneira de configurar o ambiente e rodar sua aplicação?
 1. Você seguiu as instruções de envio do desafio?
-1. Qualidade e cobertura dos testes unitários.
+1. Nível de qualidade e cobertura dos testes unitários.
 
-Adicionalmente, tentaremos verificar a sua familiarização com as bibliotecas padrões (standard libs), bem como sua experiência com programação orientada a objetos a partir da estrutura de seu projeto.
+Adicionalmente, tentaremos verificar a sua familiarização com as bibliotecas padrões (standard libs), bem como sua experiência com programação orientada a objetos a partir da estrutura do seu projeto.
 
 ### Referência
 
-Este desafio foi baseado neste outro desafio: https://github.com/myfreecomm/desafio-programacao-1
+Este desafio foi baseado neste desafio: https://github.com/myfreecomm/desafio-programacao-1
