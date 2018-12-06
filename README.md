@@ -22,16 +22,16 @@ Sua tareda é criar uma interface web para listar os filmes que estão na base d
 
 Sua aplicação DEVE:
 
-1. Listar todos os filmes, de forma páginada, permitindo aplicação de filtro por gênero(s)
-1. Importar os dados da API atravêz de script _Rake_
-1. Ser escrita obrigatoriamente em Ruby 2.5+, usando o framework Rails 5.2+, banco de dados Postgres.
-1. Ser simples de configurar e rodar, funcionando em ambiente compatível com Unix (Linux ou Mac OS X). Ela deve utilizar apenas linguagens e bibliotecas livres e/ou gratuitas.
+1. Listar todos os filmes, de forma páginada, permitindo aplicação de filtro por gênero(s);
+1. Importar os dados da API através de script _Rake_;
+1. Ser escrita obrigatoriamente em Ruby 2.5+, usando o framework Rails 5.2+, banco de dados Postgres;
+1. Ser simples de configurar e rodar, funcionando em ambiente compatível com Unix (Linux ou Mac OS X). Ela deve utilizar apenas linguagens e bibliotecas livres e/ou gratuitas;
 
 Sua aplicação web não precisa:
 
-1. Lidar com autenticação ou autorização (pontos extras se ela fizer, mais pontos extras se a autenticação for feita via OAuth).
-1. Ter uma aparência bonita e responsiva.
-1. Ter interface admin (activeadmin) com opção de solicitar atualização do catalogo de filmes.
+1. Lidar com autenticação ou autorização (pontos extras se ela fizer, mais pontos extras ainda se a autenticação for feita via OAuth2);
+1. Ter uma aparência bonita e responsiva;
+1. Ter interface admin [activeadmin] (pontos extrar se fizer, mais pontos extra se tiver a opção para atualização do catalogo de filmes manualmente);
 
 ## Avaliação
 
