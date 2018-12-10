@@ -46,4 +46,4 @@ Adicionalmente, tentaremos verificar a sua familiarização com as bibliotecas p
 
 ### Referência
 
-Este desafio foi baseado neste desafio: https://github.com/myfreecomm/desafio-programacao-1
+https://github.com/myfreecomm/desafio-programacao-1
