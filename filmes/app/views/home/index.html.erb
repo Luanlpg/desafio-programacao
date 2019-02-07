@@ -1,0 +1,20 @@
+<div class="container">
+  <form role="form" action="/">
+    <h2 class="">Encontrando Filmes por Gênero:</h2>
+    <input type="text" class="form-control" placeholder="Ex: Comédia" name="keywords">
+    <br>
+    <button class="btn btn-primary btn-block" type="submit">Procurar</button>
+    <br>
+  </form>
+  <section class="filmes">
+    <% if @filmes.present? %>
+      <% @filmes.each do |filme| %>
+        <div class="col-md-12">
+          <h1><%= filme.name %></h1>
+          <p><%= filme.description %></p>
+          <p><%= filme.genero %>"></p>
+        </div>
+      <% end %>
+    <% end %>
+  </section>
+</div>
